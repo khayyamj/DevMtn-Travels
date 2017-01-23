@@ -1,5 +1,8 @@
 angular.module('devmtnTravel').service('mainSrv', function(){
 
+    this.getTravelInfo = function () {
+        return this.travelInfo;
+    }
     this.travelInfo = [{
         city: 'New York',
         country: 'United States',
