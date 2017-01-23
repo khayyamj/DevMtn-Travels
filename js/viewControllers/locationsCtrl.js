@@ -2,7 +2,7 @@ angular.module('devmtnTravel')
 .controller('locationsCtrl', function($scope, mainSrv) {
 
     $scope.locationData = mainSrv.travelInfo;
-    console.log($scope.locationData);
+
 
 
 })
