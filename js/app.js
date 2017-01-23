@@ -28,7 +28,7 @@ angular.module('devmtnTravel', ['ui.router'])
             .state('contact',{
                 url: '/contact',
                 parent: 'home',
-                templateUrl: "../views/about.html"
+                templateUrl: "../views/contact.html"
             })
 
         $urlRouterProvider
